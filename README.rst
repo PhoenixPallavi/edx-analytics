@@ -14,11 +14,11 @@ edx-analytics
 #. Figuring out possible hive queries for analysis and analysing the edx log for feature extraction.
 #. Actual hive queries for edx analysis
 #. Parsing log file and extracting the essential features for the Analysis(Java coding).
-#. importing the extracted feature into hive and hdfs
-#. Making real time hdfs by calling the parser through cron tab in fixed interval of time 
+#. Importing the extracted feature into hive and hdfs
+#. Making real time hdfs by calling the parser through cron tab in fixed interval of time
+#. Parse the log when any events gets fire or some content in the log chnages or gets added. 
 
 
 Future work
 =============
-#. Parse the log when any events gets fire or some content in the log chnages or gets added.
 #. Statistical analysis using R.
